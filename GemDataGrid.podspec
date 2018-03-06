@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.license             = { :type => "MIT", :file => "LICENSE" }
 
   s.author              = { "NguyenTuAnh" => "anht01@gemvietnam.com" }
-  s.source              = { :git => "https://github.com/gemCustomLibrary/GemDataGrid", :tag => "1.0.0" }
+  s.source              = { :git => "https://github.com/gemCustomLibrary/GemDataGrid.git", :tag => "1.0.0" }
   s.source_files        = "GemDataGrid", "GemDataGrid/**/*.{h,m,swift}"
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.2' }
 
